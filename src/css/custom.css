@@ -1,0 +1,31 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+    color: white;
+    margin-left: 20px;
+}
+.hero {
+  display: flex;
+  min-height: 576px;
+  height: 100%;
+  background-color: #222;
+  align-items: center;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #fb616d;
+  border-color: #fb616d;
+}
+
+/* --bs-btn-hover-bg {
+  background-color: #36383f;
+} */
