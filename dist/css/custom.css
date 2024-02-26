@@ -9,8 +9,8 @@ body {
 }
 
 .navbar-brand {
-  color: white;
-  margin-left: 20px;
+    color: white;
+    margin-left: 20px;
 }
 .hero {
   display: flex;
@@ -24,20 +24,6 @@ body {
 .btn-primary {
   background-color: #fb616d;
   border-color: #fb616d;
-}
-
-
-
-.image-container {
-  width: 300px;
-  height: 300px;
-  overflow: hidden;
-}
-
-.image-container img {
-  width: 100%; /* Ensures the image fills the container horizontally */
-  height: auto; /* Allows the image to maintain its aspect ratio */
-  display: block; /* This removes any default spacing issues that might occur */
 }
 
 /* --bs-btn-hover-bg {
